@@ -15,7 +15,8 @@
         <img src='{%static "portfolio/images/Logo.png"%}'>
     </div>
     <div class="contact">
-        <h4>Contact:</h4>
+        <h3>Contact:</h3>
+        <hr>
         <div class="cellphone">
             <p>Cellphone/WhatsApp: </p>
             <a href="#">+57 3134593866</a>
@@ -27,6 +28,7 @@
     </div>
     <div class="about_me">
         <h3>About Me</h3>
+        <hr>
         <p>
             I’m a Front-End developer that has <br>
             knowledge in Back-End and the <br>
@@ -49,6 +51,7 @@
     </div>
     <div class="skills_title">
         <h3>Skills</h3>
+        <hr>
     </div>
     <div class="skills">
         <div class="skills_groups">
@@ -70,6 +73,7 @@
     </div>
     <div class="git_hub_title">
         <h3>GITHUB</h3>
+        <hr>
     </div>
     <div class="git_hub">
         <a href="https://github.com/proudman36">
@@ -80,6 +84,7 @@
         {%for project in projects%}
 
         <h2>{{project.title}}</h2>
+        <hr>
         <p>{{project.description}}</p>
         <img src={{project.image.url}} alt={{project.title}} class="mundo_cart">
         {%if project.url%}
@@ -89,6 +94,7 @@
         {% endfor %}
     </div>
     <div class="forms">
+        <hr>
         <h4>Name:</h4>
         <input type="text">
         <h4>Email:</h4>
