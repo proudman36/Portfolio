@@ -1,0 +1,59 @@
+.mundo_cart{
+    width: 200px;
+    height: 200px;
+}
+.logo{
+    display:flex;
+    justify-content: center;
+}
+.logo img{
+    width: 500px;
+}
+
+.contact{
+    display:flex;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+}
+.about_me{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.skills_title{
+    text-align: center;
+}
+.skills_groups{
+    display:flex;
+    justify-content: space-evenly;
+}
+.git_hub_title{
+    text-align: center;
+}
+.git_hub{
+    display:flex;
+    justify-content: center;
+}
+.projects{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+}
+.forms{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+input{
+    width: 300px;
+}
+.message{
+    height: 300px;
+}
+@media screen and (max-width:900px){
+    .logo img{
+        width:200px;
+        height: 200px;
+    }
+}
