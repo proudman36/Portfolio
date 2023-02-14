@@ -1,6 +1,17 @@
 @import url('https://fonts.googleapis.com/css2?family=EB+Garamond&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@100&display=swap');
 body{
-    font-family: 'EB Garamond', serif;
+    font-family: 'Josefin Sans', sans-serif;
+    background-image: url('../static/portfolio/images/background.jpeg');
+    background-repeat: no-repeat;
+    background-size:150%;
+    font-weight: bold;
+    font-size: 25px;
+    
+}
+i{
+    font-size:25px;
+    margin-left: 5px;
 }
 hr{
     width: 100px;
@@ -23,7 +34,14 @@ h3{
     width: 500px;
     height:300px;
 }
-
+#typescript{
+    width: 25px;
+    height: 25px;
+}
+#django{
+    width: 25px;
+    height: 25px;
+}
 .contact{
     display:flex;
     align-items: center;
@@ -42,6 +60,7 @@ h3{
     display:flex;
     justify-content: space-evenly;
 }
+
 .git_hub_title{
     text-align: center;
 }
@@ -60,7 +79,7 @@ h3{
     flex-direction: column;
     align-items: center;
     background-color: rgba(23, 98, 173, 0.628);
-    height: 800px;
+    height: 900px;
 }
 input{
     width: 300px;
@@ -69,6 +88,10 @@ input{
     height: 300px;
 }
 @media screen and (max-width:900px){
+    body{
+        font-size: 15px;
+        background-size: cover;
+    }
     .logo img{
         width:200px;
         height: 200px;
