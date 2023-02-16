@@ -93,6 +93,10 @@ input{
     align-items: center;
     justify-content: center;
 }
+.CV a{
+    text-decoration: none;
+    color: black;
+}
 @media screen and (max-width:900px){
     body{
         font-size: 15px;
