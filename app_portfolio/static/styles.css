@@ -96,6 +96,7 @@ input{
 .CV a{
     text-decoration: none;
     color: black;
+    font-weight: bold;
 }
 @media screen and (max-width:900px){
     body{
