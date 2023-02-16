@@ -6,7 +6,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="{% static 'styles.css'%}">
+    <link rel="stylesheet" href="{%static 'styles.css'%}">
     <link rel="stylesheet" href="{% static '/portfolio/fontawesome-free-6.3.0-web/css/all.css'%}">
     <title>Document</title>
 </head>
@@ -90,6 +90,10 @@
         {% endif %}
 
         {% endfor %}
+    </div>
+    <div class="CV">
+        <a href="{%static 'portfolio/Documents/Copia de CV FullStack.pdf'%}"><h1>CV FullStack</h1></a>
+        <a href="{%static 'portfolio/Documents/Copia de CV FrontEnd.pdf'%}"><h1>CV FrontEnd</h1></a>
     </div>
     <div class="forms">
         <hr>
