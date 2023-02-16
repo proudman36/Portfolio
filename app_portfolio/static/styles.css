@@ -87,10 +87,6 @@ input{
 .message{
     height: 300px;
 }
-.email a{
-    text-decoration: none;
-    color:black;
-}
 .CV{
     display:flex;
     flex-direction: column;
